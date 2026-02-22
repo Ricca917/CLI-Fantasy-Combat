@@ -6,11 +6,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>it.itsprodigi</groupId>
-    <artifactId>rpg-combat</artifactId>
+    <artifactId>cli-fantasy-combat</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>RPG Combat - Il Dungeon dei Condannati</name>
+    <name>CLI Fantasy Combat - Il Dungeon dei Condannati</name>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -30,7 +30,7 @@
                     <mainClass>${exec.mainClass}</mainClass>
                 </configuration>
             </plugin>
-            <!-- fat-jar: mvn package, poi java -jar target/rpg-combat-1.0-SNAPSHOT.jar -->
+            <!-- fat-jar: mvn package, poi java -jar target/cli-fantasy-combat-1.0-SNAPSHOT.jar -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
